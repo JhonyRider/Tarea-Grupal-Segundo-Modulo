@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página dinámica con DOM</title>
+  <link rel="stylesheet" href="style.css"> <!-- Opcional -->
+</head>
+<body>
+
+  <!-- ENCABEZADO -->
+  <header>
+    <h1 id="titulo-principal">Bienvenido a mi página web dinámica</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Acerca</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- CONTENIDO PRINCIPAL -->
+  <main>
+    <section id="contenido">
+      <h2>Contenido dinámico</h2>
+      <p id="parrafo">Este es un párrafo inicial que será modificado con JavaScript.</p>
+
+      <!-- Botón para interactividad -->
+      <button id="btn-cambiar-color">Cambiar color de fondo</button>
+      <button id="btn-agregar-item">Agregar nuevo elemento</button>
+      <button id="btn-eliminar-item">Eliminar último elemento</button>
+
+      <ul id="lista-dinamica">
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+      </ul>
+    </section>
+  </main>
+
+  <!-- PIE DE PÁGINA -->
+  <footer>
+    <p id="footer-text">© 2025 - Mi página dinámica</p>
+  </footer>
+
+  <!-- ENLACE DEL SCRIPT -->
+  <script src="script.js"></script>
+</body>
+</html>
