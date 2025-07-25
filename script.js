@@ -10,7 +10,7 @@ const lista = document.getElementById("lista-dinamica");
 // 1️⃣ Cambiar el contenido del título después de 2 segundos
 setTimeout(() => {
   titulo.textContent = "¡Título actualizado dinámicamente con JavaScript!";
-}, 2000);
+}, 5000);
 
 // 2️⃣ Cambiar atributos de un elemento (en este caso el footer)
 footerText.style.color = "gray";
